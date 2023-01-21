@@ -1,17 +1,18 @@
 {
-  "name": "@balancer-labs/gauges-subgraph",
+  "name": "@vertekfi/balancer-gauges-subgraph",
   "version": "1.0.0",
   "description": "Subgraph tracking Balancer Protocol's gauge system",
   "scripts": {
     "auth": "graph auth https://api.thegraph.com/deploy/",
+    "build": "graph build",
     "lint": "eslint ./src",
-    "local:create": "graph create --node http://localhost:8020/ balancer-labs/gauges",
-    "local:remove": "graph remove --node http://localhost:8020/ balancer-labs/gauges",
-    "local:deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 balancer-labs/gauges",
+    "local:create": "graph create --node http://localhost:8020/ vertekfi/gauges",
+    "local:remove": "graph remove --node http://localhost:8020/ vertekfi/gauges",
+    "local:deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 vertekfi/gauges",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/",
-    "deploy:mainnet": "yarn deploy balancer-labs/gauges",
-    "deploy:goerli": "yarn deploy balancer-labs/gauges-goerli",
-    "codegen": "yarn generate-manifests && graph codegen subgraph.yaml --output-dir src/types/ && graph codegen subgraph.arbitrum.yaml --output-dir src/types/",
+    "deploy:mainnet": "yarn deploy vertekfi/gauges",
+    "deploy:goerli": "yarn deploy vertekfi/gauges-goerli",
+    "codegen": "yarn generate-manifests && graph codegen subgraph.yaml --output-dir src/types/",
     "generate-manifests": "ts-node ./scripts/generate-manifests"
   },
   "repository": {
