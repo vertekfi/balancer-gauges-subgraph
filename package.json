@@ -11,7 +11,7 @@
     "local:deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 vertekfi/gauges",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/",
     "deploy:mainnet": "yarn deploy vertekfi/gauges",
-    "deploy:goerli": "yarn deploy vertekfi/goerli-gauges-v2",
+    "deploy:goerli": "graph deploy vertekfi/goerli-gauges-v2 subgraph.goerli.yaml --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/",
     "codegen": "yarn generate-manifests && graph codegen subgraph.yaml --output-dir src/types/",
     "generate-manifests": "ts-node ./scripts/generate-manifests"
   },
