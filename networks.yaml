@@ -5,17 +5,17 @@ goerli:
   #   transactionHash: '0x2d5d9089caf830b09e6ab586b56b140e6e0ab28d2d2070425bfb97ada9c95d08'
   #   startBlock: 7001506
   gaugeV2Factory:
-    address: '0x2CDc11df05f38b76B1F19989Edb5691EF3B7f732'
-    transactionHash: '0x9eb869ee72be289604d851dfabcdf5daa200df2f9e5db120441b156394e4560b'
-    startBlock: 8345857
+    address: '0x3a31977D0901bC227cd42b310E3B97B3c971e33A'
+    transactionHash: '0xc5d7a160fdd010447b9278e121c733948b95946dfd1beb921a9891e2c0411e01'
+    startBlock: 8352751
   gaugeController:
-    address: '0x88FA9a8887DdB5d7F27d5a9A10fb70aEf47dd2F1'
-    transactionHash: '0xf45262fc097170ec2e11f42395d79bf5cc30a5369077e6980c460fcd2f752913'
-    startBlock: 8345829
+    address: '0x10320e8318bFF7259ecf94f9aF03ceA62B1B30D0'
+    transactionHash: '0x2e238223e4d61dda855bd27e363a42645e2f709755688dc99844d66151ef2c44'
+    startBlock: 8352594
   votingEscrow:
-    address: '0xE135f5772f7dd368dDDC759FA31a11419e253d00'
-    transactionHash: '0x82664ca168e99c7a21354a210211819f07538f18be1c816a7431da56892a5000'
-    startBlock: 8345814
+    address: '0x8F9c3B9b55E5bc1c44ca251d4cA2b625fa36A3da'
+    transactionHash: '0xb93efa38de25f03b297dd213ed1199251ccbb5ee9e214c265dc7d5502ac921b3'
+    startBlock: 8352519
 
 mainnet:
   network: mainnet

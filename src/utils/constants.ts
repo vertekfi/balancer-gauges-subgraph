@@ -15,7 +15,7 @@ let network: string = dataSource.network();
 
 let controllerAddressByNetwork: AddressByNetwork = {
   mainnet: '',
-  goerli: '0x88FA9a8887DdB5d7F27d5a9A10fb70aEf47dd2F1',
+  goerli: '0x10320e8318bFF7259ecf94f9aF03ceA62B1B30D0',
 };
 
 function forNetwork(
@@ -35,11 +35,11 @@ export const CONTROLLER_ADDRESS = forNetwork(
 
 // TODO: update
 export const VAULT_ADDRESS = Address.fromString(
-  '0x1F56FDcB9E3a818E4BB2E6Fe2cb73F7385D3Aeac',
+  '0xD8a14084e92d6187F1945cB31995d67de54906cD',
 );
 // TODO: update
 export const MAINNET_GAUGE_V2_FACTORY = Address.fromString(
-  '0x2CDc11df05f38b76B1F19989Edb5691EF3B7f732',
+  '0x3a31977D0901bC227cd42b310E3B97B3c971e33A',
 );
 
 export function isV2Factory(factory: Address): boolean {
